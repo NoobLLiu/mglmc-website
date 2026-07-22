@@ -504,8 +504,10 @@ a {
 .year-viewport {
   perspective: 500px;
   overflow: hidden;
-  height: 1.15em;
-  line-height: 1.15;
+  height: 1.2em;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
 }
 
 .year-display {
@@ -516,6 +518,7 @@ a {
   color: var(--ink);
   display: inline-block;
   transform-origin: center center;
+  padding-bottom: 0.1em;
 }
 
 .year-display.is-flipping {
